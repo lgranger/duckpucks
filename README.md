@@ -1,4 +1,4 @@
-# duckpucks
+# Duck Pucks
 
 This is the repo for the rails site running at duckpucks.com
 
