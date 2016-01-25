@@ -1,15 +1,16 @@
 Rails.application.routes.draw do
-  get 'pages/home'
+  get '/home' => 'pages#home'
+  get 'root' => 'pages#home'
 
-  get 'pages/about'
+  get '/about' => 'pages#about'
 
-  get 'pages/contact'
+  get '/contact' => 'pages#contact'
 
-  get 'pages/products'
+  get '/products' => 'pages#products'
 
-  get 'pages/events'
+  get '/events' => 'pages#events'
 
-  get 'pages/buy'
+  get '/buy' => 'pages#buy'
 
   get 'session/login' => 'session#new', as: :login
 
