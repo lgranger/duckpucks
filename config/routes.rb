@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
   get 'session/login' => 'session#new', as: :login
 
-  get 'session/create'
+  get "/auth/:provider/callback", to: "sessions#create"
 
   get 'session/logout' => 'session#destory', as: :logout
 
