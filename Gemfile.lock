@@ -216,6 +216,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mini_magick
+  omniauth
   omniauth-facebook
   pry-rails
   rails (= 4.2.5)
