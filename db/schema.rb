@@ -11,7 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160125055201) do
+ActiveRecord::Schema.define(version: 20160201181059) do
+
+  create_table "flocks", force: :cascade do |t|
+    t.string   "name"
+    t.string   "nickname"
+    t.string   "instagram"
+    t.string   "from"
+    t.string   "living"
+    t.string   "why_dpucks"
+    t.string   "setup"
+    t.string   "fav_event"
+    t.string   "advice"
+    t.string   "ollie"
+    t.string   "age"
+    t.string   "goffy"
+    t.string   "switch"
+    t.string   "influences"
+    t.string   "restraunt"
+    t.string   "skate_blades"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "username"
