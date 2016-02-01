@@ -18,5 +18,7 @@ Rails.application.routes.draw do
 
   get 'session/logout' => 'session#destory', as: :logout
 
-  
+  get 'flock/' => 'flock#index', as: :flock
+
+  get 'flock/:id' => 'flock#show'
 end
