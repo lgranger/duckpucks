@@ -17,6 +17,43 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- .navbar-default .navbar-toggle .icon-bar {
-     background-color: black;
+ div.container-fluid {
+   width: 90%;
  }
+
+ div.cubes {
+   margin-left: 15% !important;
+ }
+
+ div.home-cube {
+  text-align: center;
+  min-height: 400px;
+  border-style: solid;
+  border-color: #CE0014;
+  border-width: 10px;
+  margin: 20px;
+}
+
+h1, p.center {
+  text-align: center;
+}
+
+// body {
+//   margin-left: 50px;
+// }
+
+div.buy {
+  background-image: url(buy_map.png);
+}
+
+div.events {
+  background-image: url(go_outside.png);
+}
+
+div.flock {
+  background-image: url(flock.png);
+}
+
+div.product {
+  background-image: url(product.png);
+}

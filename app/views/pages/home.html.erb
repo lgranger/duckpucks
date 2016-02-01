@@ -1,13 +1,23 @@
-<div class="span6">
-#GetPucked
-</div>
-<div class="span6">
-pucks are what?
-</div>
-<div class="span6">
-Events
-go outside
-</div>
-<div class="span6">
-The Flock
+<div class="container-fluid cubes">
+  <%= link_to buy_path do %>
+    <div class="col-sm-4 home-cube buy">
+    #GetPucked
+    </div>
+  <% end %>
+  <%= link_to products_path do %>
+    <div class="col-sm-4 home-cube product">
+    duck what?
+    </div>
+  <% end %>
+  <%= link_to events_path do %>
+    <div class="col-sm-4 home-cube events">
+    Events
+    go outside
+    </div>
+  <% end %>
+  <%# link_to riders_path do %>
+    <div class="col-sm-4 home-cube flock">
+    The Flock
+    </div>
+  <%# end %>
 </div>
