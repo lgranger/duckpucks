@@ -1,2 +1,6 @@
-<h1>Pages#events</h1>
-<p>Find me in app/views/pages/events.html.erb</p>
+<h1>GO OUTSIDE</h1>
+<% @res["data"].each do |event| %>
+  <p class="center">
+    <%= event["start_time"] %>
+  </p>
+<% end %>

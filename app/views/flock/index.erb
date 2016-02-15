@@ -1,0 +1,5 @@
+<% @flock.each do |rider| %>
+  <h2>
+    <%= link_to rider.name, "flock/#{rider.id}" %>
+  </h2>
+<% end %>
